@@ -149,7 +149,11 @@ body {
   height: 11px;
   background: url("../images/icon_linkArrow.svg") no-repeat center;
 }
-
+.fix-banner{
+  position:fixed;
+  right:0;
+  bottom:0;
+}
 /* 기본레이아웃 */
 .wrap {
 }
