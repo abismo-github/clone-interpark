@@ -3,42 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Favion-->
-    <link rel="icon" href="images/interpark.ico">
-    <!--바탕화면 즐겨찾기-->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <!--<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">-->
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <title>인터파크</title>
-    <!--html버전 처리-->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1, user-scalable=no" />    
+    <!-- favicon -->
+    <link rel="icon" href="images/interpark.ico" />
+    <!-- 바탕화면 즐겨찾기 -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" /> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" /> -->
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <!--SEO 적용-->
-    <meta
-      name="description"
-      content="웹 퍼블리셔 & FE 개발자 홍길동 포트폴리오입니다."
-    />
-    <meta
-      name="keywords"
-      content="홍길동, 포트폴리오, 웹퍼블리싱, 웹퍼블리셔, FE, 프론트엔드"
-    />
-    <meta name="author" content="" />
-    <meta property="og:title" content="홍길동 포트폴리오" />
-    <meta property="og:site_name" content="홍길동 포트폴리오" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.io/" />
-    <meta property="og:image" content="images/metaimg.png" />
-    <meta
-      property="og:description"
-      content="웹 퍼블리셔 & FE 개발자 홍길동 포트폴리오입니다."
-    />
+    <title>인터파크</title>
+
+    <!-- SEO 적용 -->
     <meta
       name="description"
       content="국내외 항공권, 숙소, 여행 최저가 예약부터 뮤지컬, 콘서트, 연극 티켓까지 모두 한번에 예약하세요"
@@ -56,6 +43,18 @@
     <meta property="og:url" content="https://www.interpark.com" />
     <meta property="og:site_name" content="인터파크" />
     <meta property="og:type" content="website" />
+
+    <!-- html 버전 처리 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- css 초기화 -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- vender pre fix -->
+    <script src="js/prefixfree.min.js"></script>
+    <!-- response -->
+    <script src="js/respond.min.js"></script>
+    
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
@@ -64,7 +63,8 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <link rel="stylesheet" href="style.css" />
+    <!-- css 초기화 파일 적용 -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- 플라잉 배너 -->
@@ -90,6 +90,7 @@
                 <input type="button" class="search-bt" />
                 <input type="reset" class="search-reset" />
               </form>
+              
             </div>
             <div class="header-right">
               <ul class="member-list">
@@ -116,6 +117,9 @@
                   </div>
                 </li>
               </ul>
+              <a href="#" class="mb-mypage">
+                <img src="images/icon_mypage.svg" alt="">
+              </a>
             </div>
           </div>
           <div class="header-down clearfix">
