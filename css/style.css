@@ -42,16 +42,16 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .inner {
-    padding:0 20px;
-    padding-bottom:20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+
     max-width: 760px;
-    border-bottom:8px solid #f0f4f4;
+    border-bottom: 8px solid #f0f4f4;
   }
 }
 
 @media screen and (max-width: 760px) {
   .inner {
-    
     max-width: 100%;
   }
 }
@@ -103,7 +103,7 @@ body {
 .sw-prev::before {
   transform: scaleX(-100%);
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .sw-bt {
     display: none;
   }
@@ -111,8 +111,8 @@ body {
 /* section 내용 구조 */
 
 .wrap > section {
-  padding-top:30px;
-  padding-bottom:90px;
+  padding-top: 30px;
+  padding-bottom: 90px;
 }
 
 .section-top {
@@ -182,8 +182,8 @@ body {
 
 @media screen and (max-width: 1280px) {
   .wrap > section {
-
   }
+
   .section-top {
   }
   .section-top > h2 {
@@ -193,8 +193,8 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .wrap > section {
-    padding-top:30px;
-    padding-bottom:40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
   .section-top {
   }
@@ -207,26 +207,27 @@ body {
     font-size: 15px;
     line-height: 18px;
   }
+
   .bt-link-shop {
     display: block;
-    font-size:15px;
+    font-size: 15px;
     line-height: 48px;
     border-radius: 3px;
   }
   .section-top .btns {
-    margin:15px 0;
+    margin: 15px 0;
     white-space: nowrap;
     overflow: hidden;
   }
   .section-top .btns a {
     line-height: 34px;
-    padding:0 14px;
-    margin-right:10px;
+    padding: 0 14px;
+    margin-right: 5px;
   }
 }
 @media screen and (max-width: 760px) {
-  .wrap > section { 
-    padding-bottom:30px;
+  .wrap > section {
+    padding-bottom: 30px;
   }
   .section-top {
   }
@@ -259,83 +260,83 @@ body {
   margin-top: 10px;
 }
 
-/*퀵 메뉴*/
-.quick-menu{
+/* 퀵메뉴 */
+.quick-menu {
   display: none;
-  position:fixed;
-  left:0; bottom:0;
-  width:100%;
-  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
   z-index: 99;
 }
-.quick-menu .inner{
+.quick-menu .inner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-top:1px solid rgba(0,0,0,0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
-.quick-menu .inner a{}
-@media screen and (max-width:1024px) {
+.quick-menu a {
+}
+@media screen and (max-width: 1024px) {
   .quick-menu {
     display: block;
   }
 }
-/*플라잉 마이페이지*/
+/* 플라잉 마이페이지 */
 .fix-mypage {
   display: none;
   position: fixed;
-  left:0;
-  top:0;
-  width:100%;
+  left: 0;
+  top: 0;
+  width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
-  z-index: 999999;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999999;
 }
 
 .fix-mypage-main {
   position: absolute;
-  left:0;
-  bottom:0;
+  left: 0;
+  bottom: 0;
   width: 100%;
 }
 .fix-mypage-main .inner {
   border-radius: 18px 18px 0 0;
-  background: white;
+  background: #fff;
   overflow: hidden;
-  padding:30px 0;
+  padding: 30px 0;
   text-align: center;
 }
 .fix-mypage-title {
-  font-size:20px;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom:20px
+  margin-bottom: 20px;
 }
 .fix-mypage-list {
   display: inline-block;
 }
 .fix-mypage-list li {
-  float:left;
-  margin-right:40px;
+  float: left;
+  margin-right: 40px;
 }
 .fix-mypage-list li:last-child {
-  margin-right:0;
+  margin-right: 0;
 }
+
 .fix-mypage-list li a {
-  font-size:14px;
+  font-size: 14px;
   color: #666;
 }
 .fix-mypage-list li a img {
   width: 48px;
-  height: auto;
   display: block;
-  margin:0 auto;
-  margin-bottom:8px;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
-@media screen and (max-width:1280px) {
-  .fix-mypage {
-    display: none ;
-  }
+@media screen and (max-width: 1280px) {
 }
+
 /* 기본레이아웃 */
 .wrap {
 }
@@ -560,7 +561,6 @@ body {
 
 @media screen and (max-width: 1024px) {
   .header {
-    border-bottom: 8px solid #f0f4f4;
   }
   .header .inner {
     padding-top: 15px;
@@ -622,7 +622,6 @@ body {
 
 /* 추천이벤트 */
 .promotion {
-
 }
 
 .promotion .inner {
@@ -665,7 +664,6 @@ body {
   }
   .promotion .inner {
     height: 300px;
-    border-bottom: 8px solid #f0f4f4;
   }
   .promotion .section-top {
     display: block;
@@ -688,9 +686,10 @@ body {
   }
   .sw-promotion-pg .swiper-pagination-bullet-active {
     opacity: 1;
-    background-color: #f00;
+    background-color: #000;
   }
 }
+
 @media screen and (max-width: 760px) {
   .promotion .inner {
     height: 290px;
@@ -706,20 +705,18 @@ body {
     margin-top: -20px;
     z-index: 999;
   }
-
   .sw-promotion-pg .swiper-pagination-bullet {
     width: 6px;
     height: 6px;
-    border-radius: 3px;
+    border-radius: 50%;
     opacity: 0.3;
-    background-color: white;
-    transition: width 0.5s;
+    background-color: #fff;
   }
   .sw-promotion-pg .swiper-pagination-bullet-active {
     opacity: 1;
-    width: 20px;
-    height: 6px;
-    background-color: white;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
   }
 }
 
@@ -727,7 +724,7 @@ body {
 .shopping {
 }
 .shopping .section-slide {
-  /*height:405px;*/
+  /* height: 405px; */
 }
 
 .sw-shopping {
@@ -768,7 +765,6 @@ body {
   color: #111;
   font-weight: 700;
   white-space: nowrap;
-
 }
 .good-info-list li b span {
   color: #ef3e43;
@@ -795,41 +791,39 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-@media screen and (max-width:1280px) {
 
+@media screen and (max-width: 1280px) {
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .good-info {
-    padding: 5px;
+    padding: 10px;
   }
 }
-@media screen and (max-width:760px) {
+@media screen and (max-width: 800px) {
   .good-info-list li b {
-    font-size:12px;
+    font-size: 15px;
     line-height: 18px;
     white-space: nowrap;
-  }
-  .good-info {
-    padding: 5px;
-}
-}
-
-@media screen and (max-width:800px) {
-  .good-info-list li b {
-    font-size:15px;
-    line-height: 18px;
-    white-space: nowrap;
-
   }
   .good-info {
     padding: 10px;
   }
+}
+@media screen and (max-width: 760px) {
+  .good-info-list li b {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .good-info {
+    padding: 5px;
+  }
   .good-info-list li p {
-    font-size:13px;
+    font-size: 13px;
     line-height: 16px;
     height: 32px;
   }
 }
+
 /* 투어특가 */
 .tour {
   padding-top: 30px;
@@ -837,7 +831,7 @@ body {
 }
 
 .tour .section-slide {
-  height: 355px;
+  /* height: 355px; */
 }
 .sw-tour {
   height: 100%;
@@ -853,7 +847,14 @@ body {
 .tour-img {
   position: relative;
   width: 100%;
-  height: 245px;
+
+  /* 1280px 일때 높이가 245 px 이다. */
+  /* 1280px 이 100vw 라면  */
+  /* 245px 은 몇 vw 일까? */
+  /*  245 / 1280 * 100  */
+  max-height: 245px;
+  height: 19.14vw;
+
   overflow: hidden;
 }
 .tour-img img {
@@ -862,7 +863,7 @@ body {
   top: 50%;
   left: 50%;
   /* 좌표, 영역말고 내용 즉, 보이는 부분만 이동 */
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1.3);
 
   width: 100%;
 }
@@ -911,6 +912,34 @@ body {
 .tour-price b {
   font-weight: 700;
   font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .tour-img {
+    /* height: 138px; */
+  }
+  .tour-info {
+    padding: 10px;
+  }
+  .tour-cate {
+    top: -22px;
+    line-height: 22px;
+    padding: 0 7px;
+    border-radius: 4px;
+  }
+  .tour-title {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .tour-price {
+    font-size: 15px;
+  }
+  .tour-price b {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 760px) {
 }
 
 /* 티켓랭킹 */
