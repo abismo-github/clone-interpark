@@ -1230,8 +1230,14 @@
 
             <script>
               new Swiper(".sw-events", {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 27,
+                breakpoints: {
+                  1280: {
+                    slidesPerView:4,
+                    
+                  },
+                },
               });
             </script>
           </div>
